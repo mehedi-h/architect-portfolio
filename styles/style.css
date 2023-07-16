@@ -10,10 +10,10 @@
     color: #eeeeee;
     background-color: #f37536;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     border-radius: 10px;
-    border: none;
+    border: 0;
     padding: 15px 30px;
     cursor: pointer;
 }
@@ -34,7 +34,7 @@ nav li {
     list-style: none;
     padding: 0px 50px;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;  
+    font-size: 1rem;  
     font-weight: 600;  
 }
 nav li a {
@@ -43,7 +43,7 @@ nav li a {
 }
 .nav-title {
     font-family: 'Poppins', sans-serif;
-    font-size:45px;  
+    font-size:2rem;  
     font-weight: 800;
     color: rgb(37, 37, 37);
 }
@@ -53,14 +53,14 @@ nav li a {
 }
 .banner-title {
     font-family: 'Poppins', sans-serif;
-    font-size:55px;  
+    font-size:2.8rem;  
     font-weight: 800;
     color: rgb(37, 37, 37);
     margin: 20px;
 }
 .banner-brief {
     font-family: 'Raleway', sans-serif;
-    font-size:16px;  
+    font-size:.8rem;  
     font-weight: 600;
     color: rgb(109, 109, 109);
     margin: 0px 300px 0px;
@@ -107,4 +107,32 @@ nav li a {
     nav li {
         padding: 10px 20px; 
     }
+}
+
+main {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.team-container {
+    display: flex;
+    align-items: center;
+}
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.team-content {
+    padding: 0px 70px;
+}
+.team-title {
+    font-size: 2rem;
+}
+.quick-list {
+    color: #727272;
+    font-weight: 600;
+}
+.text-feature {
+    color: #F37536;
+    font-weight: 800;
 }

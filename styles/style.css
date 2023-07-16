@@ -37,3 +37,36 @@ nav li a {
     font-weight: 800;
     color: rgb(37, 37, 37);
 }
+.banner-container {
+    text-align: center;
+    margin-top: 50px;
+}
+.banner-title {
+    font-family: 'Poppins', sans-serif;
+    font-size:55px;  
+    font-weight: 800;
+    color: rgb(37, 37, 37);
+    margin: 20px;
+}
+.banner-brief {
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;  
+    font-weight: 600;
+    color: rgb(109, 109, 109);
+    margin: 0px 300px 0px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.btn-primary {
+    color: #eeeeee;
+    background-color: #f37536;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 30px;
+}
+.banner-img {
+    margin-top: 40px;
+}

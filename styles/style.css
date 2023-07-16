@@ -6,9 +6,19 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+.btn-primary {
+    color: #eeeeee;
+    background-color: #f37536;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
 .header-container {
     background: rgba(255, 144, 14, 0.10);
-    height: 100vh;
     padding: 50px 240px;
 }
 .nav-container {
@@ -22,7 +32,7 @@ nav > ul {
 }
 nav li {
     list-style: none;
-    margin-right: 50px;
+    padding: 0px 50px;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;  
     font-weight: 600;  
@@ -57,16 +67,44 @@ nav li a {
     line-height: 25px;
     margin-bottom: 25px;
 }
-.btn-primary {
-    color: #eeeeee;
-    background-color: #f37536;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 10px;
-    border: none;
-    padding: 15px 30px;
-}
+
 .banner-img {
     margin-top: 40px;
+    width: 100%;
+}
+
+/*Responsive style*/
+
+/*Small Mobile device*/
+
+@media screen and (max-width: 576px) {
+    .header-container {
+        padding: 10px;
+    }
+    .banner-brief {
+        margin: 0;
+    }
+    .nav-container {
+        flex-direction: column;
+
+    }
+    nav li {
+        padding: 10px; 
+    }
+}
+/*Mediam Mobile or tablet device*/
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .header-container {
+        padding: 30px 20px;
+    }
+    .banner-brief {
+        margin: 20px;
+    }
+    .nav-container {
+        flex-direction: column;
+    }
+    nav li {
+        padding: 10px 20px; 
+    }
 }

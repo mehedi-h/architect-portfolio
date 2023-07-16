@@ -63,15 +63,53 @@ nav li a {
     font-size:.8rem;  
     font-weight: 600;
     color: rgb(109, 109, 109);
-    margin: 0px 300px 0px;
+    margin: 0px 300px 25px;
     line-height: 25px;
-    margin-bottom: 25px;
 }
 
 .banner-img {
     margin-top: 40px;
     width: 100%;
 }
+
+
+
+main {
+    max-width: 1440px;
+    margin: 70px auto;
+}
+.team-container {
+    display: flex;
+    align-items: center;
+}
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-content {
+    padding: 20px 70px;
+}
+.team-title {
+    font-size: 2rem;
+}
+.quick-list {
+    color: #727272;
+    font-weight: 600;
+}
+.text-feature {
+    color: #F37536;
+    font-weight: 800;
+}
+.team-brief {
+    font-family: 'Raleway', sans-serif;
+    font-size:.8rem;  
+    font-weight: 600;
+    color: rgb(109, 109, 109);
+    line-height: 25px;
+    padding: 30px 0px;
+}
+
 
 /*Responsive style*/
 
@@ -86,10 +124,15 @@ nav li a {
     }
     .nav-container {
         flex-direction: column;
-
     }
     nav li {
         padding: 10px; 
+    }
+    .team-container {
+        flex-direction: column-reverse;
+    }
+    .team-img {
+        grid-template-columns: 1fr;
     }
 }
 /*Mediam Mobile or tablet device*/
@@ -107,32 +150,14 @@ nav li a {
     nav li {
         padding: 10px 20px; 
     }
-}
-
-main {
-    max-width: 1440px;
-    margin: 0px auto;
-}
-.team-container {
-    display: flex;
-    align-items: center;
-}
-.team-img {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-}
-.team-content {
-    padding: 0px 70px;
-}
-.team-title {
-    font-size: 2rem;
-}
-.quick-list {
-    color: #727272;
-    font-weight: 600;
-}
-.text-feature {
-    color: #F37536;
-    font-weight: 800;
+    .team-container {
+        flex-direction: column-reverse;
+    }
+    .team-content {
+        text-align: center;
+        padding: 20px;
+    }
+    .team-img {
+        grid-template-columns: (2, 1fr);
+    }
 }

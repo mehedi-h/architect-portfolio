@@ -178,6 +178,25 @@ main {
     width: 170px;
 }
 
+/* Footer section */
+
+footer {
+    background: rgba(255, 144, 14, 0.10);
+    margin: 130px 240px 200px;
+    padding: 40px 410px;
+    font-family: 'Raleway', sans-serif;
+    font-size:1rem;  
+    font-weight: 400;
+    color: rgb(109, 109, 109);
+    text-align: center;
+    border-radius: 8px;
+}
+.copyright {
+    font-size:1rem;  
+    font-weight: 600;
+    color: rgba(255, 16, 16, 0.953);
+}
+
 /*Responsive style*/
 
 /*Small Mobile device*/
@@ -217,6 +236,10 @@ main {
     .sponsors-img {
         flex-direction: column;
         align-items: center;
+    }
+    footer {
+        margin: 30px 10px;
+        padding: 10px;
     }
 }
 /*Mediam Mobile or tablet device*/
@@ -260,5 +283,9 @@ main {
     }
     .sponsors-img img {
         width: 120px;
+    }
+    footer {
+        margin: 30px 20px;
+        padding: 20px 10px;
     }
 }

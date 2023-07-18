@@ -110,6 +110,76 @@ main {
     padding: 30px 0px;
 }
 
+/*Feature Architect style*/
+
+.feature-container {
+    margin-top: 100px;
+    display: flex;
+    gap: 130px;
+}
+.feature-container .feature-card {
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.feature-title {
+    color: rgb(37, 37, 37);
+    font-size: 2rem;
+    font-weight: 800;
+    padding-left: 30px;
+    margin: 30px 0;
+    border-left: 5px solid #F37536;
+}
+.feature-brief {
+    font-family: 'Raleway', sans-serif;
+    font-size:.8rem;  
+    font-weight: 400;
+    color: rgb(109, 109, 109);
+    line-height: 25px;
+    padding: 10px 0px;
+}
+.feature-card {
+    margin: 30px;
+}
+.feature-card-title {
+    color: rgb(37, 37, 37);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.feature-card-brief {
+    font-family: 'Raleway', sans-serif;
+    font-size:.8rem;  
+    font-weight: 400;
+    color: rgb(109, 109, 109);
+    line-height: 25px;
+    padding: 10px 0px;
+}
+.badge {
+    border-radius: 8px;
+    background: #F37536;
+    width: 300px;
+    text-align: center;
+    padding: 45px;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+}
+.badge h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.badge p {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/*Feature Architect style*/
 
 .facts-title {
     font-size: 2rem;
